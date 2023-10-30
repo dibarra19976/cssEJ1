@@ -161,6 +161,7 @@ input[type="checkbox"]:focus {
   .card-content p {
     color: #f1f2f8 !important;
   }
+  
 }
 
 .profile-pic {
@@ -175,4 +176,116 @@ input[type="checkbox"]:focus {
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url(./ico/account_circle_FILL1_wght400_GRAD200_opsz24.svg) ;
+}
+
+.btn a{
+  color: #f1f2f8 !important;;
+  font-style: normal;
+  text-decoration: none; 
+}
+
+.btn:hover a{
+  color: #70727c !important;
+
+}
+.btn-register{
+  background-color: #e3cbe7 !important;
+
+}
+
+.btn-register a{
+  color: #70727c !important;
+
+}
+
+.btn-register:hover {
+  background-color: #92499c !important;
+}
+
+
+.btn-register:hover a{
+  color: #f1f2f8 !important;
+}
+
+.content{
+  animation: fadeIn 0.5s ; 
+
+}
+/* CSS DEL EJERCICIO 1 DE LA UD 1 */
+
+/* 
+*{
+  outline: 1px red solid;
+} */
+
+.register{
+  background-image: url(../img/1366_2000.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center; 
+  background-size:cover;
+  font-family: "Gabarito", sans-serif !important;
+}
+
+.register-fields{
+  background-color: #f1f2f8 !important;
+}
+
+.register div {
+  animation: fadeIn 0.5s ; 
+}
+.register h1{
+  color: white !important;
+  font-weight: bold;
+  
+}
+
+.register-form label{
+  font-weight: bold !important;
+}
+
+.back-button{
+  color: #f1f2f8 !important;;
+  font-style: normal;
+  text-decoration: none; 
+  transition: 0.1s;
+  padding-bottom: 10px;
+}
+.back-button:hover{
+  scale: 1.03 !important;
+}
+
+.register-form{
+  border-radius: 30px ;
+  overflow:hidden;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.53);
+
+}
+
+
+.btn-submit {
+  background-color: #92499c !important;
+  border-radius: 30px !important;
+  color: #f1f2f8 !important;
+  font-size: 12pt !important;
+  transition: 0.1s !important;
+  height: 40px;
+  margin: 0px 20px 20px 20px ;
+  border: 0;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.228);
+}
+
+.btn-submit:hover {
+  background-color: #f1e5f3 !important;
+  color: #70727c !important;
+}
+
+@keyframes fadeIn {  
+  from {  
+      opacity:0;  
+  }  
+
+  to {  
+      opacity:1;  
+  }  
 }
