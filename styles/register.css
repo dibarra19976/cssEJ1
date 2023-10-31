@@ -63,22 +63,51 @@
 
 .pfp img {
   width: 80px;
-  opacity: 70%;
-  transition: 0.2s;
+ 
 }
 
-.pfp img:hover {
+.pfp label{
+    opacity: 70%;
+    transition: 0.2s;
+}
+.pfp label:hover {
   opacity: 100%;
   scale: 1.1;
 }
 
 .pfp input[type="checkbox"] {
   visibility: hidden;
+  display: none;
 }
 
-input[type="checkbox"]:checked + img {
-  opacity: 100%;
-  scale: 1.1;
+input[type="checkbox"]:checked ~ label{
+    opacity :0 !important;
+    transition: 0.2s;
+    visibility: none;
+    pointer-events: none;
+}
+
+input[id="pfp1"]:checked ~ label[for="pfp1"]{
+    opacity :1 !important;
+    opacity: 100%;
+    scale: 1.1;
+    pointer-events:visible;
+
+}
+
+input[id="pfp2"]:checked ~ label[for="pfp2"]{
+    opacity :1 !important;
+    opacity: 100%;
+    scale: 1.1;
+    pointer-events:visible;
+
+}
+
+input[id="pfp3"]:checked ~ label[for="pfp3"]{
+    opacity :1 !important;
+    opacity: 100%;
+    scale: 1.1;
+    pointer-events:visible;
 }
 
 input[type="text"] {
