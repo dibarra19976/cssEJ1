@@ -80,7 +80,7 @@
   display: none;
 }
 
-input[type="checkbox"]:checked ~ label{
+.pfp input[type="checkbox"]:checked ~ label{
     opacity :0 !important;
     transition: 0.2s;
     visibility: none;
@@ -114,6 +114,10 @@ input[type="date"] {
 
 input[type="tel"] {
   border-radius: 10px !important;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px !important;
 }
 
 input:focus{
